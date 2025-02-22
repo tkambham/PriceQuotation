@@ -63,3 +63,4 @@ C:/Users/xqu1/source/repos/Chp2PriceQuotation/PriceQuotation/bin/Debug/net8.0/li
 /Users/triloksaikambham/Downloads/Chp2PriceQuotation/PriceQuotation/obj/Debug/net8.0/PriceQuotation.pdb
 /Users/triloksaikambham/Downloads/Chp2PriceQuotation/PriceQuotation/obj/Debug/net8.0/PriceQuotation.genruntimeconfig.cache
 /Users/triloksaikambham/Downloads/Chp2PriceQuotation/PriceQuotation/obj/Debug/net8.0/ref/PriceQuotation.dll
+/Users/triloksaikambham/Downloads/Chp2PriceQuotation/PriceQuotation/obj/Debug/net8.0/PriceQuotation.sourcelink.json
