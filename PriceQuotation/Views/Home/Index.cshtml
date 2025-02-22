@@ -8,27 +8,29 @@
 
 <form asp-action="Index" method="post">
     <div class="row mb-3">
-        <label asp-for="Subtotal" class="col-md-2">Subtotal:</label>
-        <div class="col-md-3">
+        <label asp-for="Subtotal" class="col-md-4 col-form-label">Subtotal:</label>
+        <div class="col-md-4">
             <input asp-for="Subtotal" class="form-control"/>
         </div>
     </div>
-    <div class="row mb-3">
-        <label asp-for="DiscountPercent" class="col-md-2">Discount percent:</label>
-        <div class="col-md-3">
+    <div class="row mb-4">
+        <label asp-for="DiscountPercent" class="col-md-4 col-form-label">Discount percent:</label>
+        <div class="col-md-4">
             <input asp-for="DiscountPercent" class="form-control"/>
         </div>
     </div>
-    <div>
-        <label>Discount amount:</label>
-        <label>@ViewBag.Discount.ToString("c2")</label>
+    <div class="row mb-4">
+        <label class="col-md-4 col-form-label">Discount amount:</label>
+        <label class="col-md-4">@ViewBag.Discount.ToString("c2")</label>
     </div>
-    <div>
-        <label>Total:</label>
-        <label>@ViewBag.Total.ToString("c2")</label>
+    <div class="row mb-4">
+        <label class="col-md-4 col-form-label">Total:</label>
+        <label class="col-md-4">@ViewBag.Total.ToString("c2")</label>
     </div>
-    <div>
-        <button type="submit">Calculate</button>
-        <a asp-action="Index">Clear</a>
+    <div class="row">
+        <div class="col offset-md-4">
+            <button type="submit" class="btn btn-success">Calculate</button>
+            <a asp-action="Index" class="btn btn-success">Clear</a>
+        </div>
     </div>
 </form>
